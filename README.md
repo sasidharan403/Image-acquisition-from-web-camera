@@ -48,12 +48,9 @@ while(True):
         break
 video.release()
 cv2.destroyAllWindows()
-```
-
-
 
 ## ii) Display the video
-```
+
 import cv2
 pic = cv2.VideoCapture(0)
 while True:
@@ -63,12 +60,9 @@ while True:
         break
 pic.release()
 cv2.destroyAllWindows()
-```
-
-
 
 ## iii) Display the video by resizing the window
-```
+
 import numpy as np
 import cv2
 im = cv2.VideoCapture(0)
@@ -87,13 +81,9 @@ while True:
         break
 im.release()
 cv2.destroyAllWindows()
-```
-
-
-
 
 ## iv) Rotate and display the video
-```
+
 import numpy as np
 import cv2
 im = cv2.VideoCapture(0)
@@ -113,11 +103,6 @@ while True:
 im.release()
 cv2.destroyAllWindows()
 ```
-
-
-
-
-
 
 ## Output
 
